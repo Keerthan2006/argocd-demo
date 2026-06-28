@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: game-2048-deployment
-  namespace: game-2048-deployment
   labels:
     app: game-2048
 spec:
